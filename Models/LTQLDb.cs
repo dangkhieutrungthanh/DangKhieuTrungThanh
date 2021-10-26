@@ -14,7 +14,7 @@ namespace DangKhieuTrungThanh.Models
 
         public virtual DbSet<LopHoc> LopHocs { get; set; }
         public virtual DbSet<SinhVien> SinhViens { get; set; }
-
+        public virtual DbSet<person> persons { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<SinhVien>()
