@@ -11,6 +11,7 @@ namespace DangKhieuTrungThanh.Models
     public class person
     {
         [Key]
+        
         public int PersonId { get; set; }
         [Required]
         [StringLength(50)]

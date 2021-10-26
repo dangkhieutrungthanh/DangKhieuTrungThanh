@@ -20,6 +20,8 @@ namespace DangKhieuTrungThanh.Models
             modelBuilder.Entity<SinhVien>()
                 .Property(e => e.MaSinhVien)
                 .IsUnicode(false);
+           
+                
         }
     }
 }

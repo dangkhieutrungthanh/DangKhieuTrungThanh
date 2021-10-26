@@ -7,13 +7,13 @@ namespace DangKhieuTrungThanh.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Creat_Table_Person : IMigrationMetadata
+    public sealed partial class Create_Table_Person : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Creat_Table_Person));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Create_Table_Person));
         
         string IMigrationMetadata.Id
         {
-            get { return "202110260019133_Creat_Table_Person"; }
+            get { return "202110260052098_Create_Table_Person"; }
         }
         
         string IMigrationMetadata.Source
