@@ -130,6 +130,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LopHocController.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Controllers\SinhVienController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -142,14 +143,15 @@
     <Compile Include="Migrations\202110050037390_Create_Table_SinhVien.Designer.cs">
       <DependentUpon>202110050037390_Create_Table_SinhVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202110260052098_Create_Table_Person.cs" />
-    <Compile Include="Migrations\202110260052098_Create_Table_Person.Designer.cs">
-      <DependentUpon>202110260052098_Create_Table_Person.cs</DependentUpon>
+    <Compile Include="Migrations\202110260210374_Person.cs" />
+    <Compile Include="Migrations\202110260210374_Person.Designer.cs">
+      <DependentUpon>202110260210374_Person.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LopHoc.cs" />
     <Compile Include="Models\LTQLDb.cs" />
-    <Compile Include="Models\person.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\stringProcess.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -199,6 +201,11 @@
     <Content Include="Views\SinhVien\Details.cshtml" />
     <Content Include="Views\SinhVien\Edit.cshtml" />
     <Content Include="Views\SinhVien\Index.cshtml" />
+    <Content Include="Views\People\Create.cshtml" />
+    <Content Include="Views\People\Delete.cshtml" />
+    <Content Include="Views\People\Details.cshtml" />
+    <Content Include="Views\People\Edit.cshtml" />
+    <Content Include="Views\People\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -223,8 +230,8 @@
     <EmbeddedResource Include="Migrations\202110050037390_Create_Table_SinhVien.resx">
       <DependentUpon>202110050037390_Create_Table_SinhVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202110260052098_Create_Table_Person.resx">
-      <DependentUpon>202110260052098_Create_Table_Person.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202110260210374_Person.resx">
+      <DependentUpon>202110260210374_Person.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,14 +7,17 @@ using System.Web;
 
 namespace DangKhieuTrungThanh.Models
 {
-    [Table("person")]
-    public class person
-    {
+    [Table("Person")]
+    public class Person
+    { 
         [Key]
-        
-        public int PersonId { get; set; }
+        [StringLength(20)]
+        public string PersonId { get; set; }
+
         [Required]
         [StringLength(50)]
         public string PersonName { get; set; }
+
+       
     }
 }
