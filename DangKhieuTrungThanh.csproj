@@ -142,9 +142,14 @@
     <Compile Include="Migrations\202110050037390_Create_Table_SinhVien.Designer.cs">
       <DependentUpon>202110050037390_Create_Table_SinhVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110260019133_Creat_Table_Person.cs" />
+    <Compile Include="Migrations\202110260019133_Creat_Table_Person.Designer.cs">
+      <DependentUpon>202110260019133_Creat_Table_Person.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LopHoc.cs" />
     <Compile Include="Models\LTQLDb.cs" />
+    <Compile Include="Models\person.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -217,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110050037390_Create_Table_SinhVien.resx">
       <DependentUpon>202110050037390_Create_Table_SinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110260019133_Creat_Table_Person.resx">
+      <DependentUpon>202110260019133_Creat_Table_Person.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
