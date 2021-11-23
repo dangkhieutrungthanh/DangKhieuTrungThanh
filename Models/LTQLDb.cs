@@ -11,7 +11,7 @@ namespace DangKhieuTrungThanh.Models
             : base("name=LTQLDb")
         {
         }
-
+        public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<LopHoc> LopHocs { get; set; }
         public virtual DbSet<SinhVien> SinhViens { get; set; }
         public virtual DbSet<Person> People  { get; set; }

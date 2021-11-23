@@ -7,13 +7,13 @@ namespace DangKhieuTrungThanh.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Create_Table_Malop : IMigrationMetadata
+    public sealed partial class taobang : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Create_Table_Malop));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(taobang));
         
         string IMigrationMetadata.Id
         {
-            get { return "202110050035558_Create_Table_Malop"; }
+            get { return "202111211210486_tao-bang"; }
         }
         
         string IMigrationMetadata.Source
