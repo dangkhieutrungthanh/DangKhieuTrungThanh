@@ -28,7 +28,7 @@ namespace DangKhieuTrungThanh.Controllers
                     acc.PassWord = encry.PassEncrytion(acc.PassWord);
                     db.Accounts.Add(acc);
                     db.SaveChanges();
-                    RedirectToAction("Login", "Account");
+                    return RedirectToAction("Login", "Account");
                 }
             }
             catch (Exception) { ModelState.AddModelError("", "Tài khoản đã có người đăng ký");}
